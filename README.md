@@ -20,3 +20,8 @@ Emerging Learned image Compression (LC) achieves significant improvements in cod
 ![image](https://github.com/sanaznami/JND-LC/assets/59918141/54b0af4c-fe51-4037-a111-7107cfba6124)
 
 <p align="center">The proposed learned image compression framework and JND-based perceptual loss functions. (a) overall framework. (b) Pixel-wise Loss (PWL). (c) Image-wise Loss (IWL). (d) Feature-wise Loss (FWL).
+
+
+## Pre-trained Models
+Our pre-trained models can be downloaded using this link.
+
