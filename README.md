@@ -27,39 +27,29 @@ Our pre-trained models can be downloaded using this link.
 
 
 ## Dataset Structure
-The dataset used for training and testing should have such a structure.
+The dataset used for training and testing should have the following structure. Original images are stored in the "Ref" subfolder, while JND-quality images are located in the "JND1" subfolder.
 
 
-- rootdir/
-     - train/
-         - img#1
-         - ...
-         - JND-Levels.txt (a file containing the 3 JND levels per image: first column for the first JND, second column for the second JND, and third column for the third JND level)
-     - valid/
-         - img#1
-         - ...
-         - JND-Levels.txt (a file containing the 3 JND levels per image: first column for the first JND, second column for the second JND, and third column for the third JND level)
-     - test/
-         - img#1
-         - ...
-     - jnd1train/
-         - img#1
-         - ...
-     - jnd1valid/
-         - img#1
-         - ...
-     - jnd2train/
-         - img#1
-         - ...
-     - jnd2valid/
-         - img#1
-         - ...
-     - jnd3train/
-         - img#1
-         - ...
-     - jnd3valid/
-         - img#1
-         - ...
+    - rootdir/
+         - train/
+             - Ref/
+                  - img#1
+                  - ...             
+             - JND1/
+                  - img#1
+                  - ...
+
+         - test/
+             - Ref/
+                  - img#1
+                  - ...             
+             - JND1/
+                  - img#1
+                  - ...
+
+
+	     
+
 
 
 ## Evaluation
