@@ -47,16 +47,14 @@ The dataset used for training and testing should have the following structure. O
                   - img#1
                   - ...
 
-
-	     
-
-
-
 ## Evaluation
+If you want evaluate with our pretrained model, please download them using this link and put them in the directory "./PretrainedModels/".
+
+    python3 -m compressai.utils.eval_model checkpoint /path/to/images/folder/ -a cheng2020-anchor -p ./PretrainedModels/name/of/model --output_directory /path/to/output/folder --output-file name-of-output-file
 
 
 ## Train
-
+To train with proposed methods on your own dataset, please download modefied codes in ./examples/ and put all in the ./examples/ directory of [CompressAI](https://github.com/InterDigitalInc/CompressAI?tab=readme-ov-file).
 
 ## Citation
 
