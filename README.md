@@ -54,7 +54,7 @@ If you want evaluate with our pretrained model, please download them using this 
 
 
 ## Train
-To train with proposed methods on your own dataset, please download modefied codes in ./examples/ and put all in the ./examples/ directory of [CompressAI](https://github.com/InterDigitalInc/CompressAI?tab=readme-ov-file).
+To train with the proposed methods on your own dataset, please download the modified codes from the ./examples/ directory and put them in the ./examples/ directory of [CompressAI](https://github.com/InterDigitalInc/CompressAI?tab=readme-ov-file) repository.
 
 To train based on MSE-based loss function, use the following command:
     python3 examples/[trainPWL.py or trainIWL.py or trainFWL.py] -d /path/to/my/image/dataset/ -e epoch_num -m cheng2020-anchor --quality [1,...,6] --lambda lambda -lr lr --batch-size batch_size --cuda --save --chkpntname name
