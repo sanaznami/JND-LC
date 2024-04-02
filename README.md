@@ -7,7 +7,7 @@ This is the implementation of [PERCEPTUAL LEARNED IMAGE COMPRESSION VIA END-TO-E
 
 ## Acknowledgement
 
-The framework is based on [CompressAI](https://github.com/InterDigitalInc/CompressAI). We modify examples/train.py, compressai\datasets\image.py and compressai\losses\rate_distortion.py.
+The framework is based on [CompressAI](https://github.com/InterDigitalInc/CompressAI). We modify examples/train.py, compressai/datasets/image.py and compressai/losses/rate_distortion.py.
 
 **Abstract**
 
