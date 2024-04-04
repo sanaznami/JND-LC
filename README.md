@@ -68,6 +68,14 @@ To train based on MSSSIM-based loss function, use the following command:
 
 If our work is useful for your research, please cite our paper:
 
+    @inproceedings{pakdaman2024,
+    	title={PERCEPTUAL LEARNED IMAGE COMPRESSION VIA END-TO-END JND-BASED OPTIMIZATION},
+	author={Pakdaman, Farhad and Nami, Sanaz and Gabbouj, Moncef},
+	booktitle={Proceedings of the IEEE International Conference on Image Processing (ICIP)},
+	year={2024}
+    }
+
+
 
 ## Contact
 
