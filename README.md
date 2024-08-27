@@ -23,7 +23,7 @@ Emerging Learned image Compression (LC) achieves significant improvements in cod
 
 
 ## Pre-trained Models
-Our pre-trained models can be downloaded using this link.
+Our pre-trained models can be downloaded using this [link](https://drive.google.com/drive/folders/1PABZNNAvIo5uwU08r2WG037_SXOsrpsp?usp=sharing).
 
 
 ## Dataset Structure
@@ -48,7 +48,7 @@ The dataset used for training and testing should have the following structure. O
                   - ...
 
 ## Evaluation
-If you want evaluate with our pretrained model, please download them using this link and put them in the directory "./PretrainedModels/".
+If you want evaluate with our pretrained model, please download them using this [link](https://drive.google.com/drive/folders/1PABZNNAvIo5uwU08r2WG037_SXOsrpsp?usp=sharing) and put them in the directory "./PretrainedModels/".
 
     python3 -m compressai.utils.eval_model checkpoint /path/to/images/folder/ -a cheng2020-anchor -p ./PretrainedModels/name/of/model --output_directory /path/to/output/folder --output-file name-of-output-file
 
